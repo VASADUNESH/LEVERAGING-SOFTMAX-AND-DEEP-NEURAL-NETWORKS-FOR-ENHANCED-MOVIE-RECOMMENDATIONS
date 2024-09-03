@@ -1,0 +1,16 @@
+Deep MMMF tested on MovieLens 1m and EachMovie Dataset on both strong and weak generalization.
+Reported scores are average of 5 runs on different splits of train, validation and test for weak generalization. 
+For strong generalization, some users have to be seperated out initially, then split both on train, validation and test. 
+
+Code is present in the ipynb files, explained by their filenames.
+
+Sample dataset is present in the EachMovie and ml-1m folders. 
+
+Splits are created in the code itself. 
+
+Libraries used:
+Tensoflow
+Keras
+Scipy
+Tensorboard
+numpy
